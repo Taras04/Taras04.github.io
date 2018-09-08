@@ -1,0 +1,135 @@
+﻿body{
+	margin: 0 auto;
+max-width: 1366px; 
+}
+a {  text-decoration: none;
+}
+li {
+	list-style-type: none;
+}
+header {
+	overflow: hidden; 
+	}
+.center-block-main {
+	margin: 0 auto;
+	max-width: 100%;
+	max-height:50px;
+}
+.logo {margin-top:-3%;
+
+}
+.menu {
+	display: flex;
+	justify-content: space-evenly;
+}
+.menu li a {
+	font-weight: 400; 
+	color: #454851;
+	text-transform: uppercase;
+	font-family: "Proxima Nova - Semibold";
+	letter-spacing: 0.4px;
+	font-size: 16px;
+font-weight: 400;
+line-height: 21px;
+}
+.menu li {
+	margin-top:1%;
+}
+.img{ 
+position: relative; 
+background-image: url(../images/img1.png) ; 
+width: 100%;
+height: 760px;
+	}
+.enjoy{ 
+position	: absolute;
+ top: 46%;  
+ left: 50%;
+ margin-right: -50%;
+ transform: translate(-50%,0); 
+	font-size:40px; 
+color: #ffffff;
+font-family: "Proxima Nova - Extrabld";
+font-size: 60px;
+font-weight: 400;
+line-height: 21px;
+text-transform: uppercase;
+letter-spacing: 3px;
+ }
+.center_block{position	: absolute;
+	width: 970px;
+height: 160px;
+background-color: #ffffff;
+top: 90%; left: 50%;
+margin-right: -50%;
+transform: translate(-50%, 0);
+}
+h3,h4,h5{	margin-top: 100px;	
+	text-align: center;
+	color: #171d1c;
+font-family: "Kepler Std - Bold Disp";
+font-size: 48px;
+font-weight: 400;
+}
+.separator{
+margin: 0 auto;
+background-image: url(../images/title_separator.png);
+width: 78px;
+height: 10px;
+margin-bottom:3%;
+}
+section section{
+	display: flex;
+	margin-right:2%;
+	margin-bottom:6%;
+}
+.center_pid{
+	width: 300px;
+	height: 100px;
+	background-color: #ffffff;
+
+	left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, 0);  top: 56%;
+	position: absolute;
+	}
+.bord{width: 270px;
+	height: 70px;
+	border: 1px solid #cccccc;
+	position: absolute;
+	left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, 0);  top: 61%;
+}
+section section div div{
+	color: #454851;
+	font-family: "Kepler Std - Bold Disp";
+	font-size: 24px;
+	font-weight: 400;
+	}
+.mal1{
+	background-image: url(../images/Layer_14.png);
+	margin-left:8%;
+	margin-right:2%;
+	width: 360px;
+	height: 300px;
+	position: relative;
+}
+.mal2{background-image: url(../images/Layer_15.png);
+		width: 360px;
+	height: 300px;
+	margin-right:2%;
+	position: relative;
+}
+.mal3{background-image: url(../images/Layer_16.png);
+		width: 360px;
+	height: 300px;
+	position: relative;
+}
+.Text1{
+	position: absolute;
+	top:68%;
+	left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, 0); 
+}
