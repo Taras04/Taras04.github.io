@@ -1,6 +1,4 @@
-﻿body{	
-	margin: 0 auto;
-	width: 1366px;
+﻿body{		
 	background-color:#ecf0f1;
 }
 h2,h4,h5,h6,li,ul,p,a {
@@ -16,7 +14,7 @@ header {
 	overflow: hidden; 
 	}
 .center-block-main {
-	width: 1366px;
+	max-width: 100%;
 	height: 70px;
 	background-color: #ffffff;
 }
@@ -41,28 +39,29 @@ header {
 
 .img{ 
 	background-image: url(../images/img1.png);
-	width: 1366px;
-	height: 760px;
+	background-size: cover;
 	margin-bottom:10%;
+	position: relative;
 }
 h2{ 
-	line-height:760px;
+	padding-top:26%;
+	padding-bottom: 26%;
 	text-align: center;
 	font-size:40px; 
 	color: #ffffff;
 	font-family: "Proxima Nova - Extrabld";
 	font-size: 60px;
 	font-weight: 400;
-
-text-transform: uppercase;
-letter-spacing: 3px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
  }
 .center_block{
-	position	: absolute;
-	width: 970px;
+	position: absolute;
+	width: 70%;
 	height: 160px;
+
 	background-color: #ffffff;
-	top: 84%; left: 50%;
+	top: 94%; left: 50%;
 	margin-right: -50%;
 	transform: translate(-50%, 0);
 }
@@ -133,7 +132,7 @@ h3{	margin-top: 100px;
 .rec {
 	display: flex;
 	flex-wrap:wrap;
-	justify-content:space-around;
+	justify-content:space-evenly;
 }
 .locations{
 	position: relative;
@@ -142,6 +141,10 @@ h3{	margin-top: 100px;
 	height: 300px;
 	background-color: #ffffff;
 	margin-bottom: 30px;
+	margin-left: 1%
+}
+.locations:nth-child(2n){
+	margin-left: 11%;
 }
  .min{
 	 margin-top:232px;
@@ -201,6 +204,7 @@ h3{	margin-top: 100px;
 	right: 24px;
    }
    .butt1{
+	border: 0px;
 	position: absolute;
 	top:230px;
 	left:298px;
@@ -263,11 +267,12 @@ h5{
 .img_form{
 	margin-top:6%;
 	background:url(../images/form.jpg);
-	width: 1366px;
-	height: 570px;
+	background-size: cover;
+	
 	position: relative;
 }
 .fon_form{
+	
 	position: absolute;
 	width: 391px;
 	height: 400px;
@@ -326,18 +331,24 @@ input{
 }
 button:hover {
     background-color:#69180a;
-    text-decoration: underline;
+	text-decoration: underline;
+	cursor: pointer;
+}
+button, 
+button:active, 
+button:focus {
+	outline: none;
 }
 .butt1:hover{
 	background-color:#69180a;
 }
-.contact{
+.contact1{
 	
-	width: 1366px;
+	max-width: 100%;
 	height: 300px;
 	background-color: #171d1c;
 }
-.contact div{
+.contact1 div{
 	-webkit-column-count: 3; /* Chrome, Safari, Opera */
     -moz-column-count:3 ; /* Firefox */
     column-count: 3;
