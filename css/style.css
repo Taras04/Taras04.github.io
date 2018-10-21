@@ -264,22 +264,7 @@ h5{
 	line-height: 22px;
 	text-align:justify;
 } 
-.img_form{
-	margin-top:6%;
-	background:url(../images/form.jpg);
-	background-size: cover;
-	
-	position: relative;
-}
-.fon_form{
-	
-	position: absolute;
-	width: 391px;
-	height: 400px;
-	background-color: #ffffff;
-	top:170px;
-	right: 178px;
-}
+
 h6{
 	color: #1a1a1a;
 	font-family: "Kepler Std - Bold Disp";
@@ -401,4 +386,20 @@ color: #ffffff;
     color: #000;
     text-decoration: none;
     cursor: pointer;
+}
+.img_form{
+	margin-top:6%;
+	background:url(../images/form.jpg);
+	background-size: cover;
+	
+	position: relative;
+}
+.fon_form{
+	padding-top:9%;
+	padding-bottom: 9%;
+margin-left:70%;
+	width: 391px;
+	height: 400px;
+	background-color: #ffffff;
+	
 }
