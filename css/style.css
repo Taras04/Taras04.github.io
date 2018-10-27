@@ -538,13 +538,12 @@ line-height: 40px;
 border-radius: 20px;
 border: 0px;
 }
-select:active,
+
 select:focus{
 	color: #454851;
 	outline: none;
 	border-color: #454851;
 }
-
 @media screen and (max-width: 1298px) {
 	.block_slider:nth-child(2n){
 		margin-left: 0%;
@@ -552,7 +551,6 @@ select:focus{
 	}
 	.block_slider{
 			margin-left: 0%;
-			
 }
 	select{
 		
@@ -567,15 +565,13 @@ select:focus{
 }
 @media screen and (max-width: 900px) {
 	h3{	margin-top: 20px;	
-			
 		font-size: 34px;
 }
 	.center_block{
 	margin: 0 auto;
-	margin-top:-4%;
 	width: 70%;
 	height: 300px;
-		
+	
 	flex-direction:column; 
 
 	}
@@ -596,10 +592,8 @@ input{
 	
 	width: 320px;
 	height: 264px;
-	
 }
 .mal2{
-	
 	width: 320px;
 	height: 264px;
 	
